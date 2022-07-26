@@ -22,11 +22,10 @@ function getDay(date, lang) {
       5: 'Пятница',
       6: 'Суббота',
     },
-     return dayNames[lang][date.getDay()];  
-  };
- 
+      };
+  return dayNames[lang][date.getDay()];  
 };
-function getDay(date, lang);
+function getDay();
 
 // Принимает объект даты, и должно вернуть компоненты даты в виде строки.
 // Вид должен быть такой 12:02(часы и минуты), то есть если у вас одно число на одном из
