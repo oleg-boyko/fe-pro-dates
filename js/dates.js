@@ -33,7 +33,7 @@ function getDay(date, lang) {
 function formatTime(date) {
 date.toLocaleString();
 }
-function formatTime();
+
 
 /*
 Напишите функцию getLastDayOfMonth(year, month), 
@@ -48,7 +48,7 @@ function getLastDayOfMonth(year, month) {
 let date = new Date(year, month + 1, 0);
   return date.getDate();
 }
-function getLastDayOfMonth();
+
 
 module.exports = {
   getDay,
