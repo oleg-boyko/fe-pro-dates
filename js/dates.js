@@ -34,7 +34,6 @@ function formatTime(date) {
 date.toLocaleString();
 }
 
-
 /*
 Напишите функцию getLastDayOfMonth(year, month), 
 возвращающую последнее число месяца. Иногда это 30, 31
