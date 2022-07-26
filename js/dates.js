@@ -23,12 +23,17 @@ function getDay(date, lang) {
       6: 'Суббота',
     },
   };
+  return dayNames[lang][date.getDay()];  
 }
+function getDay();
 
 // Принимает объект даты, и должно вернуть компоненты даты в виде строки.
 // Вид должен быть такой 12:02(часы и минуты), то есть если у вас одно число на одном из
 // компонентов, то добавляем 0 перед ним
-function formatTime(date) {}
+function formatTime(date) {
+date.toLocaleString();
+}
+function formatTime();
 
 /*
 Напишите функцию getLastDayOfMonth(year, month), 
@@ -39,7 +44,11 @@ year – год из четырёх цифр, например, 2012.
 month – месяц от 0 до 11.
 К примеру, getLastDayOfMonth(2012, 1) = 29 (високосный год, февраль).
 */
-function getLastDayOfMonth(year, month) {}
+function getLastDayOfMonth(year, month) {
+let date = new Date(year, month + 1, 0);
+  return date.getDate();
+}
+function getLastDayOfMonth();
 
 module.exports = {
   getDay,
