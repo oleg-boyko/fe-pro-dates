@@ -22,10 +22,10 @@ function getDay(date, lang) {
       5: 'Пятница',
       6: 'Суббота',
     },
-      };
+      }
   return dayNames[lang][date.getDay()];  
 };
-function getDay(){};
+function getDay();
 
 
 
