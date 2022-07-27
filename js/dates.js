@@ -25,7 +25,7 @@ function getDay(date, lang) {
       };
   return dayNames[lang][date.getDay()];  
 };
-function getDay();
+function getDay(){};
 
 
 
