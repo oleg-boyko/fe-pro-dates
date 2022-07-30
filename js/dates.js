@@ -34,7 +34,7 @@ function getDay(date, lang) {
 // компонентов, то добавляем 0 перед ним
 function formatTime(date) {
    //let s = date.toTimeString();
-  return date.toLocaleTimeString();
+  return date.toTimeString();
 };
 
 
