@@ -33,7 +33,7 @@ function getDay(date, lang) {
 // Вид должен быть такой 12:02(часы и минуты), то есть если у вас одно число на одном из
 // компонентов, то добавляем 0 перед ним
 function formatTime(date) {
-   let s = date.toLocaleString();
+   let s = date.toTimeString();
   return  s.substr(6);
 };
 
